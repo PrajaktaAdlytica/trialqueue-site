@@ -1,0 +1,40 @@
+{
+  "name": "trialqueue-homepage",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "preview": "vite preview",
+    "test:sites": "node --test tests/sites-worker.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/remotion/index.ts --port=4186 --no-open"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@remotion/player": "^4.0.534",
+    "@vitejs/plugin-react": "5.0.4",
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-router-dom": "^7.18.4",
+    "remotion": "^4.0.534",
+    "tailwind-merge": "^3.7.0",
+    "three": "^0.186.1",
+    "vite": "6.4.2"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.534",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

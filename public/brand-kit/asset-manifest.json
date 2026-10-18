@@ -1,0 +1,136 @@
+{
+  "brand": "TrialQueue",
+  "identity": "Review Turn",
+  "date": "2026-10-18",
+  "logo_masters": 16,
+  "favicon_masters": 8,
+  "validation": [
+    {
+      "file": "logo-svg/trialqueue-lockup-mono-light.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-wordmark-mono-light.svg",
+      "vector_paths": 1,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-stacked-primary.svg",
+      "vector_paths": 3,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-wordmark-reverse.svg",
+      "vector_paths": 1,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-wordmark-mono-dark.svg",
+      "vector_paths": 1,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-wordmark-primary.svg",
+      "vector_paths": 1,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-stacked-reverse.svg",
+      "vector_paths": 3,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-lockup-primary.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-stacked-mono-dark.svg",
+      "vector_paths": 3,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-lockup-reverse.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-lockup-mono-dark.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-mark-primary.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-mark-mono-dark.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-mark-mono-light.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-mark-reverse.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "logo-svg/trialqueue-stacked-mono-light.svg",
+      "vector_paths": 3,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/safari-pinned-tab.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/favicon-transparent.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/apple-touch-icon.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/favicon-coral.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/favicon-light.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/favicon-adaptive.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/icon-maskable.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    },
+    {
+      "file": "favicon-svg/favicon.svg",
+      "vector_paths": 2,
+      "no_raster_or_live_text": true
+    }
+  ],
+  "ico_sizes": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "status": "Approved geometry preserved; working mark clearance unverified"
+}
