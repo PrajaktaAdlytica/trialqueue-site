@@ -1,0 +1,25 @@
+# TrialQueue static SPA on Hostinger Apache/LiteSpeed.
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Never expose repository metadata or hidden deployment files.
+  RewriteRule (^|/)\.(?!well-known/) - [F,L]
+  # Serve real files and directories normally.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  # Missing assets and API paths must remain real 404 responses.
+  RewriteRule ^(?:assets|brand-kit|api)(?:/|$) - [L]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$
+  RewriteCond %{HTTP_ACCEPT} text/html [NC]
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set Cache-Control "no-cache"
+  </Files>
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>

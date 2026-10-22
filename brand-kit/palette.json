@@ -1,0 +1,18 @@
+{
+  "brand": "TrialQueue",
+  "identity": "Review Turn",
+  "palette": {
+    "ink": "#181B1A",
+    "bone": "#ECE9DE",
+    "coral": "#D78069"
+  },
+  "space": "RGB / sRGB exports",
+  "clearSpace": "0.25 × symbol height",
+  "minimumCssPixels": {
+    "lockup": 120,
+    "wordmark": 96,
+    "stacked": 120,
+    "mark": 24,
+    "favicon": 16
+  }
+}
