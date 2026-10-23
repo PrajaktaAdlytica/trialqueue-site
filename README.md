@@ -1,6 +1,6 @@
 # TrialQueue — Hostinger deployment artifact
 
-This branch contains the prebuilt static site from source commit bb899e6c8a3baa4d78e64396e2f89938b7db5f5f on main. It requires no Node.js process or server build command.
+This branch contains the prebuilt static site from source commit 1229ccd69cf58c50a36f93e5700e1980cb794158 on main. It requires no Node.js process or server build command.
 
 Hostinger: create a Custom PHP/HTML website, then Dashboard → Advanced → Git.
 Repository: https://github.com/PrajaktaAdlytica/trialqueue-site.git
