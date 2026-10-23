@@ -462,6 +462,7 @@ export function App({ onReplayIntro }) {
           <div className="wrap">
             <div className="hero-editorial">
               <div className="hero-heading">
+                <p className="funding-announcement"><span>Announcement</span> VC funding announcement — investor and amount details coming soon.</p>
                 <Eyebrow>Clinical trial operations / concept preview</Eyebrow>
                 <h1>
                   <span className="headline-line">Every criterion.</span>

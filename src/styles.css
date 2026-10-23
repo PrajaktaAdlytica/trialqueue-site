@@ -4747,3 +4747,9 @@ html[data-motion="off"] *:after {
     margin-bottom: 15px !important;
   }
 }
+
+/* Company address and pending funding announcement. */
+.company-address { font-style: normal; line-height: 1.65; margin-top: 20px; }
+.site-footer .company-address { font-size: 14px; }
+.funding-announcement { font-size: 13px; line-height: 1.6; padding: 10px 14px; margin: 0 0 22px; border: 1px solid #D7806966; border-radius: 8px; color: #ECE9DE; background: #D7806912; max-width: 520px; }
+.funding-announcement span { color: #D78069; font-weight: 600; margin-right: 8px; }

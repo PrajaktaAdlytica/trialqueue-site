@@ -262,6 +262,7 @@ export function SiteFooter() {
               <br />A person at every next step.
             </p>
             <span className="overline">RESEARCH-STAGE CONCEPT</span>
+            <address className="company-address">355 Nguyen Trong Tuyen St.<br />Ward 1<br />Tan Binh District<br />Ho Chi Minh City<br />790282<br />Vietnam</address>
           </div>
           <Link className="footer-invitation" to="/request-pilot">
             Bring one protocol.

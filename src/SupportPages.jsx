@@ -1783,6 +1783,7 @@ function Company() {
       theme="ink"
       breadcrumbs={[["Company"]]}
     >
+      <section className="page-section company-details"><h2>Company details</h2><address className="company-address">355 Nguyen Trong Tuyen St.<br />Ward 1<br />Tan Binh District<br />Ho Chi Minh City<br />790282<br />Vietnam</address></section>
       <div className="company-mark" data-paper>
         <img
           src="/assets/logos/trialqueue-mark-reverse.svg"
